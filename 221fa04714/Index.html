@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>My Portfolio</title>
+    <style>
+        html {
+            scroll-behavior: smooth; /* Enables smooth scrolling */
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar-container">
+            <div class="navbar-left">
+                <span class="navbar-brand">My Portfolio</span>
+            </div>
+            <div class="navbar-right">
+                <ul class="navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home">
+        <h1>K.Abhinaya Reddy</h1>
+        <p>Hello! I am a passionate web developer with a background in computer science and engineering. I enjoy creating beautiful and functional websites.</p>
+    </section>
+
+    <section id="about">
+        <img src="MSD.jpg" alt="Profile Picture">
+        <div>
+            <h3>K.Abhinaya Reddy</h3>
+            <h3>Education</h3>
+            <ul>
+                <li>
+                    <h4>10th</h4>
+                    KCP Siddartha Public School, Andhra Pradesh<br>2019-2020
+                </li>
+                <li>
+                    <h4>Intermediate</h4>
+                    Krishna Reddy Chaitanya College, Andhra Pradesh <br> 2020 - 2022
+                </li>
+                <li>
+                    <h4>B Tech</h4>
+                    Vignan's University, Guntur <br> 2022 - 2026
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-container">
+            <h3>HTML</h3>
+            <div class="skill-bar">
+                <div class="skill-bar-fill html">90%</div>
+            </div>
+        </div>
+        <div class="skill-container">
+            <h3>CSS</h3>
+            <div class="skill-bar">
+                <div class="skill-bar-fill css">85%</div>
+            </div>
+        </div>
+        <div class="skill-container">
+            <h3>JavaScript</h3>
+            <div class="skill-bar">
+                <div class="skill-bar-fill javascript">80%</div>
+            </div>
+        </div>
+        <div class="skill-container">
+            <h3>Python</h3>
+            <div class="skill-bar">
+                <div class="skill-bar-fill python">75%</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <div class="project-bar">
+                <img src="trrr.jpg" alt="Online Train Booking System">
+                <div class="project-content">
+                    <span class="project-number">Project 1:</span>
+                    <h3>Responsive Portfolio Website</h3>
+                    <p>A personal portfolio website built with HTML, CSS, and JavaScript, featuring a responsive design that adapts to different screen sizes. The website showcases your projects, skills, and contact information, with smooth navigation and animated elements. The JavaScript is used to create interactive components like a dynamic project gallery and a contact form with validation.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-bar">
+                <img src="mobile.jpg" alt="Mobile App Projects">
+                <div class="project-content">
+                    <span class="project-number">Project 2:</span>
+                    <h3>Interactive Quiz App</h3>
+                    <p>An interactive quiz application that tests users' knowledge on various topics. Built with HTML for structure, CSS for styling, and JavaScript for logic and interactivity, the app features multiple-choice questions, a timer, and instant feedback. JavaScript dynamically updates the quiz content and calculates the user's score, while CSS animations enhance the user experience.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-bar">
+                <img src="weather.jpg" alt="Big Mart Sales Prediction">
+                <div class="project-content">
+                    <span class="project-number">Project 3:</span>
+                    <h3>Weather Dashboard</h3>
+                    <p>A weather dashboard application that displays real-time weather information for any city entered by the user. Using HTML for layout, CSS for styling, and JavaScript for fetching data from a weather API, this app provides users with current weather conditions, a five-day forecast, and weather icons. The interface is designed to be clean and intuitive, with responsive design principles to ensure usability on any device.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <ul>
+                <li><a href="https://github.com/Shaik-Haseena">GitHub</a></li>
+                <li><a href="https://linkedin.com/in/Shaik-Haseena">LinkedIn</a></li>
+            </ul>
+            <p>All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
